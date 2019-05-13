@@ -28,3 +28,15 @@ def nyc_pigeon_organizer(data)
   end
   new_hash
 end
+
+
+
+
+#if name is nil or false set name to be the value of the empty array (new_hash). sets the variable if the variable is false or Nil
+#new_hash[name] ||= {}                      #new_hash[name] ||= {} means new_hash[name] || new_hash[name] = {}
+#new_hash[name][key] || = {}
+#new_hash[name][key] << value.to_s
+#if key == name
+#  new_hash[key] ={
+#    :color
+#  }
